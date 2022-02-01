@@ -5,7 +5,7 @@ This is a simple brake bias overlay so that you can keep an easy eye on your bra
 
 READ THIS OR YOU WILL THINK IT IS BROKEN...
 
-There is a descrepancy between the Black Box bias setting and what I am getting from telemetry.  I had to subtract 5.5 from the telemetry reading to get it close so you will see rounding errors that will make the reading a tenth off sometimes.  The overlay is close enough to give you a pretty good reading on where you are at for brake bias none the less.
+I have only been running NextGens lately and came across an issue with the In-car Black Box Brake Bias brake reporting.  When the master cylinders are set the same, the black box will report a brake bias that feels correct and is inline with what this dashboard reports.  Once the master cylinders are no longer set the same, the In-car Black Box Brake Bias and this dashboard no longer report the same number.  Try it yourself and set the master cylinders to the the opposite max settings and you will see a drastic difference.  When you drive the car, you will see that the dashboard reporting matches how the car drives.  
 
 
 As usual, extract the files into the C:\Program Files (x86)\SimHub\DashTemplates directory.  
